@@ -44,6 +44,6 @@ OpenLibrary tanpa API key: `GET https://openlibrary.org/search.json?q={keyword}&
 
 Buka proyek di Android Studio dengan Android SDK 37 dan JDK yang kompatibel, lalu jalankan konfigurasi `app` pada emulator/perangkat dengan internet. Alternatif: `./gradlew :app:assembleDebug`. [Unduh APK debug](app-debug.apk) dari root repository; hasil build lokal berada di `app/build/outputs/apk/debug/app-debug.apk` (APK root disalin dari hasil build tersebut).
 
-## Panduan video penjelasan kode
+## Video penjelasan kode
 
-Rekam penjelasan singkat, bukan sekadar demo: (1) tunjukkan model dan mapping JSON, (2) Retrofit → Repository → ViewModel dan `StateFlow`, (3) cabang loading/success/error pada Beranda, (4) `LazyColumn` dan pencarian `q`, (5) navigasi buku terpilih tanpa request kedua, (6) tema terang/gelap. Unggah video dan tautan GitHub ke formulir pengumpulan; video/tautan harus dibuat oleh pengumpul.
+[Tonton video penjelasan kode Jelajah Buku](https://youtu.be/RmngJs-HrD8).
